@@ -1,0 +1,16 @@
+@import './colors.scss';
+
+$mobileBreakpoint: 850px;
+$xsMobileBreakpoint: 600px;
+
+$btnBgColor: $tawnyPort;
+$btnTextColor: $whildSand;
+$reverseBtnBgColor: $whildSand;
+$reverseBtnTextColor: $lunarGreen;
+
+$headingColor: $lunarGreen;
+$reverseHeadingColor: $white;
+$productsBgColor: $whildSand;
+$gamesListColor: $stack;
+$detailsClickBlockBg: rgba(111, 34, 53, 0.9);
+$popupBackdropBg: rgba(246, 246, 246, 0.9);

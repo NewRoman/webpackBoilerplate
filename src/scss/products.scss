@@ -1,0 +1,50 @@
+@import './games-list.scss';
+
+// backgrounds of blocks
+.product-bg {
+  background-color: $productsBgColor;
+}
+
+.products__body {
+  font-size: 2vw;
+
+  &-title {
+    margin: 1.4vw 0;
+    text-align: center;
+    font-size: 100%;
+  }
+  .products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &-subtitle {
+      margin: 0.9vw 0 1.2vw;
+      text-align: center;
+      font-size: 80%;
+    }
+    .products__column {
+      padding: 0 1vw 1vw;
+      text-align: center;
+      width: 20vw;
+      min-width: 300px;
+      color: $gamesListColor;
+    }
+  }
+}
+
+@media screen and (max-width: $mobileBreakpoint) {
+  .products__body {
+    font-size: 2.5vw;
+  }
+  .products__body .products {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: $xsMobileBreakpoint) {
+  .products__body {
+    font-size: 6.5vw;
+  }
+}

@@ -1,0 +1,57 @@
+@import './variables.scss';
+@import './reset.scss';
+@import './utils.scss';
+@import './fonts.scss';
+@import './popups/index.scss';
+@import './fullscreen-top.scss';
+@import './products.scss';
+
+body {
+  overflow-x: hidden;
+  max-width: 100vw;
+  max-height: 100vh;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+// .footer {
+//   background-color: black;
+//   text-align: center;
+// }
+
+// .footer__body {
+//   margin: 0 auto;
+//   max-width: 1000px;
+//   padding: 20px;
+// }
+
+.fullscreen__body,
+.content__body {
+  width: 80%;
+}
+
+.content__body {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media screen and (max-width: $mobileBreakpoint) {
+  .fullscreen__body,
+  .content__body {
+    width: 100%;
+  }
+}

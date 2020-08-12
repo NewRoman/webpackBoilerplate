@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Mohio Offer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- styles -->
+    <link
+      rel="stylesheet"
+      href="<%=htmlWebpackPlugin.files.chunks.main.css %>"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <section class="fullscreen">
+        <div class="fullscreen__body">
+          <div class="fullscreen__column fullscreen__column-left">
+            <h1 class="fullscreen__title">
+              ALL IN ONE SOLUTION <br />AND TOP PROFIT GAMES <br />FOR BETTING
+              OPERATORS
+            </h1>
+
+            <ul class="fullscreen__features">
+              <li>Worldwide certificated products in BMM & GLI</li>
+              <li>We operate 11+ years all over the world in 35+ countries</li>
+              <li>More then 12 popular and high-profitable games</li>
+              <li>
+                Revenue sharing system - without any starting payment and hidden
+                fee
+              </li>
+            </ul>
+            <a href="#" class="fullscreen__link btn reverse-btn-bg"
+              >request a demo</a
+            >
+          </div>
+          <div class="fullscreen__column fullscreen__column-right">
+            <div class="fullscreen__text">
+              MOHIO provides betting products and soft: virtual sport games,
+              sportsbook, lottery and in all-in-one backend solution for a
+              betting business
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="content">
+        <div class="content product-bg">
+          <div class="content__body">
+            <div class="products__body">
+              <h2 class="products__body-title">Games and Betting products</h2>
+              <div class="products">
+                <!-- virtial sport games -->
+                <div class="products__column">
+                  <h3 class="products-subtitle">
+                    Virtual Sport Games
+                  </h3>
+                  <ul class="games__list">
+                    <li>
+                      <div class="games__list-link">
+                        <span class="games__list-logo"> </span>
+                        <span class="games__list-title">Racing Bet</span>
+                      </div>
+                      <div class="details-click-block">
+                        <span>Details</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="games__list-link">
+                        <span class="games__list-logo"></span>
+                        <span class="games__list-title">Flash Soccer</span>
+                      </div>
+                      <div class="details-click-block">
+                        <span>Details</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="games__list-link">
+                        <span class="games__list-logo"></span>
+                        <span class="games__list-title">Darts Bet</span>
+                      </div>
+                      <div class="details-click-block">
+                        <span>Details</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="games__list-link">
+                        <span class="games__list-logo"></span>
+                        <span class="games__list-title">Street Racer</span>
+                      </div>
+                      <div class="details-click-block">
+                        <span>Details</span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <!-- virtial lottery games -->
+                <div class="products__column">
+                  <h3 class="products-subtitle">
+                    Virtual Lottery Games
+                  </h3>
+                  <ul class="games__list">
+                    <li>
+                      <div class="games__list-link">
+                        <span class="games__list-logo"></span>
+                        <span class="games__list-title">Color Bet</span>
+                      </div>
+                      <div class="details-click-block">
+                        <span>Details</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="games__list-link">
+                        <span class="games__list-logo"></span>
+                        <span class="games__list-title">Red Keno</span>
+                      </div>
+                      <div class="details-click-block">
+                        <span>Details</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="games__list-link">
+                        <span class="games__list-logo"></span>
+                        <span class="games__list-title">Lucky Six</span>
+                      </div>
+                      <div class="details-click-block">
+                        <span>Details</span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <!-- sports book -->
+                <div class="products__column">
+                  <h3 class="products-subtitle">
+                    Sportsbook
+                  </h3>
+                  <ul class="games__list">
+                    <li>
+                      <div class="games__list-link">
+                        <span class="games__list-logo"></span>
+                        <span class="games__list-title">Live Sport</span>
+                      </div>
+                      <div class="details-click-block">
+                        <span>Details</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="games__list-link">
+                        <span class="games__list-logo"></span>
+                        <span class="games__list-title">Pre Match</span>
+                      </div>
+                      <div class="details-click-block">
+                        <span>Details</span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <footer class="footer">
+      <div class="footer__body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aliquam
+        tempore sunt modi accusantium totam ullam doloribus recusandae velit
+        assumenda!
+      </div>
+    </footer> -->
+    <!-- scripts -->
+    <div id="productsPopup" class="popup-container">
+      <div class="popup-content">
+        <div class="product-logo">
+          <!-- для кожного продукта буде своє лого -->
+        </div>
+        <p class="product-desc">
+          <!-- опис для продукту, має бути вставлений з дата атрибуту елемента .details-click-block по якому клікнули -->
+        </p>
+        <div class="video"></div>
+        <ul class="list">
+          <!-- зчитати дата атрибут з .details-click-block який буде містити перелік айтемів розділених якимось символом(наприклад | ) потрібно цю стрінгу потрібно буде розбити на масиви по символу | і вставити на кожен елемент масиву тег <li> в список -->
+        </ul>
+        <div class="request-block">
+          <a href="#" class="btn">Request Demo</a>
+        </div>
+      </div>
+    </div>
+    <div class="popup-backdrop" data-hide-popup></div>
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+  </body>
+</html>

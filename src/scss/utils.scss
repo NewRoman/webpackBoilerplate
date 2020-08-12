@@ -1,0 +1,47 @@
+// button utility
+.btn {
+  display: inline-block;
+  padding: 1vw;
+  background-color: $btnBgColor;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $btnTextColor;
+  &.reverse-btn-bg {
+    background-color: $whildSand;
+    color: $reverseBtnTextColor;
+  }
+}
+
+// list utils
+ul {
+  margin-bottom: 1vw;
+  list-style: none;
+  li {
+    margin-bottom: 0.5vw;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// flex utility
+.flex-rows {
+  display: flex;
+  flex-direction: row;
+}
+.flex-columns {
+  display: flex;
+  flex-direction: column;
+}
+.j-space-between {
+  justify-content: space-between;
+}
+
+// text utility
+h1,
+h2 {
+  color: $headingColor;
+  &.reverse-color {
+    color: $reverseHeadingColor;
+  }
+}

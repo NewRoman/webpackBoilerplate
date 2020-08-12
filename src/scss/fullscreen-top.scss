@@ -1,0 +1,41 @@
+.fullscreen {
+  // background-color: #6f2235;
+  background-image: url('./../images/bgFullscreen.png');
+  display: flex;
+  min-height: 100vh;
+  padding: 2vw;
+}
+
+.fullscreen__body {
+  display: flex;
+  margin: 0 auto;
+}
+
+.fullscreen__column {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+
+  &-right {
+    width: 30%;
+    justify-content: flex-end;
+  }
+  &-left {
+    width: 70%;
+    justify-content: center;
+  }
+}
+
+.fullscreen__title {
+  font-size: 2vw;
+  margin: 0 0 1.3vw 0;
+}
+
+.fullscreen__text {
+  font-size: 25px;
+  margin: 0 0 1.3vw 0;
+}
+
+.fullscreen__link {
+  align-self: flex-start;
+}
